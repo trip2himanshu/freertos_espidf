@@ -1,0 +1,8 @@
+menu "WiFi"
+    config SSID
+        string "SSID"
+        default "my ssid"
+    config PASSWORD
+        string "PASSWORD"
+        default "my password"
+endmenu
